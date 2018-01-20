@@ -1,16 +1,13 @@
 html {
   font-size: 16px;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 strong {
   font-weight: bold;
 }
-
 h2 {
   padding-bottom: 1rem;
   text-align: center;
@@ -21,7 +18,6 @@ h2 {
 h3 {
   font-weight: bold;
 }
-
 .media-container {
   overflow: hidden;
 }
@@ -32,7 +28,6 @@ h3 {
   width: 100%;
 }
 
-/* Universal Component - Flex Content Container */
 
 .flex-content {
   display: flex;
@@ -52,7 +47,7 @@ h3 {
   padding: 2rem 0;
 }
 
-/* Universal Component - Content Image Box */
+
 
 .content-image-box {
   display: flex;
@@ -113,7 +108,6 @@ h3 {
   .content-image-box .media-container {
     width: 100%;
   }
-	/* Header */
 
 	header {
 	  padding: 1rem 1.5rem;
@@ -139,7 +133,7 @@ h3 {
 	  padding-right: 1rem;
 	}
 
-	header li:last-child {
+	header li: last-child {
 	  padding-right: 0;
 	}
 
@@ -223,7 +217,6 @@ h3 {
 	  }
 	}
 
-	/* Information */
 
 	#information-section .main-content h3 {
 	  padding-top: 2rem;
@@ -236,7 +229,7 @@ h3 {
 	}
 
 	@media only screen and (max-width: 895px) {
-	  #information-section.flex-content {
+	  #information-section. flex-content {
 	    padding: 0 1rem;
 	  }
 
@@ -257,8 +250,6 @@ h3 {
 	    padding: 1rem;
 	  }
 	}
-
-	/* Courses */
 
 	#courses-section {
 	  padding: 2rem 3.5rem;
